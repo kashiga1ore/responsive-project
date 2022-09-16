@@ -1,8 +1,4 @@
 @font-face {
-  font-family: lostamasta;
-  src: url(fonts/LostaMasta.otf);
-}
-@font-face {
   font-family: borgeny;
   src: url(fonts/borgeny.otf);
 }
@@ -10,9 +6,20 @@
   font-family: feminish;
   src: url(fonts/feminish.otf);
 }
-
+@font-face {
+  font-family: glitten;
+  src: url(fonts/Glitten-Regular.otf);
+}
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+  a {
+    text-align: center;
+  }
+}
 h1 {
-  font-family: "lostamasta", cursive;
+  font-family: "glitten", cursive;
   color: black;
   text-align: center;
   font-size: 90px;
@@ -32,9 +39,11 @@ h2 {
 html {
   scroll-behavior: smooth;
 }
+
 p {
-  font-family: "borgeny", Georgia, "Times New Roman", Times, serif;
+  font-family: "glitten", Georgia, "Times New Roman", Times, serif;
   padding: 20px;
+  font-size: 20px;
 }
 .hero {
   background: rgb(255, 143, 193);
