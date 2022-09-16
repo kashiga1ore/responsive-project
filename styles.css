@@ -1,0 +1,41 @@
+@font-face {
+  font-family: lostamasta;
+  src: url(fonts/LostaMasta.otf);
+}
+@font-face {
+  font-family: borgeny;
+  src: url(fonts/borgeny.otf);
+}
+@font-face {
+  font-family: feminish;
+  src: url(fonts/feminish.otf);
+}
+
+body {
+  background: rgb(255, 143, 193);
+  background: radial-gradient(
+    circle,
+    rgba(255, 195, 220, 1) 0%,
+    rgba(255, 225, 237, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin: 20px auto;
+  background-repeat: repeat-y;
+}
+
+h1 {
+  font-family: "lostamasta", cursive;
+  color: black;
+  text-align: center;
+  font-size: 90px;
+}
+h2 {
+  font-family: "feminish", cursive;
+  text-align: center;
+  color: black;
+}
+.logo {
+  max-width: 150px;
+  font-family: "feminish";
+  font-size: 35px;
+}
