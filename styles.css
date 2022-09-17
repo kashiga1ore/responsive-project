@@ -1,8 +1,4 @@
 @font-face {
-  font-family: borgeny;
-  src: url(fonts/borgeny.otf);
-}
-@font-face {
   font-family: feminish;
   src: url(fonts/feminish.otf);
 }
@@ -11,6 +7,9 @@
   src: url(fonts/Glitten-Regular.otf);
 }
 @media (max-width: 576px) {
+  h1 {
+    font-size: 44px;
+  }
   p {
     text-align: center;
   }
@@ -44,6 +43,9 @@ p {
   font-family: "glitten", Georgia, "Times New Roman", Times, serif;
   padding: 20px;
   font-size: 20px;
+}
+footer {
+  padding-top: 100px;
 }
 .hero {
   background: rgb(255, 143, 193);
@@ -107,4 +109,30 @@ p {
 }
 .nav-link:hover {
   color: rgb(255, 143, 193);
+}
+
+.email-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-family: "glitten";
+  margin-bottom: 50px;
+}
+.email-link:hover {
+  color: rgb(255, 143, 193);
+}
+
+.social-links a {
+  margin: 20px;
+  color: rgb(255, 143, 193);
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.social-links a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 143, 193, 0.75);
 }
