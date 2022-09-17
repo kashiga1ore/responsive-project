@@ -75,3 +75,29 @@ p {
 .weather-link:hover {
   color: rgb(255, 143, 193);
 }
+.bio {
+  text-align: center;
+}
+.highlight {
+  color: rgb(255, 143, 193);
+}
+.getInTouch {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  font-family: "feminish";
+  font-size: 30px;
+  padding: 20px;
+}
+
+.contact-link {
+  font-family: "feminish";
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.contact-link:hover {
+  color: rgb(255, 143, 193);
+}
