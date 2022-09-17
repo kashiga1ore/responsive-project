@@ -101,3 +101,10 @@ p {
 .contact-link:hover {
   color: rgb(255, 143, 193);
 }
+.nav-link {
+  font-family: "feminish";
+  font-size: 20px;
+}
+.nav-link:hover {
+  color: rgb(255, 143, 193);
+}
